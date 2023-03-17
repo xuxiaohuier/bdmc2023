@@ -279,8 +279,10 @@ ul li {
   border-bottom: 1px solid transparent;
 }
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
-  background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-color: rgba(255, 255, 255, 0.5);
@@ -358,13 +360,15 @@ ul li {
   font-weight: 300;
 }
 .site-header .intro h1 {
-  margin-top: 0px;
-  font-size: 30px;
+    margin-top: 0px;
+    font-size: 16mm;
+    font-weight: 900;
+    font-family: inherit;
 }
 .site-header .intro p {
-  font-size: 20px;
-  margin-bottom: 10px;
-  font-weight: 300;
+    font-size: 8mm;
+    margin-bottom: 10px;
+    font-weight: 300;
 }
 
 @media (min-width: 768px) {
@@ -414,8 +418,10 @@ ul li {
   margin: 25px 0;
 }
 .speaker h4 {
-  margin-top: 15px;
-  margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 700;
 }
 .speaker p {
   margin-bottom: 5px;
